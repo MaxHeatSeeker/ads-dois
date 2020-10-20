@@ -1,0 +1,19 @@
+-- Gramática
+S => ABC
+A => a | aA
+B => b | bB
+C => max | bB
+
+-- Qual pode ser produzida pela G acima?
+a) aaabbb - OK
+b) abmaxa - NOK
+c) aaaabmaxb - NOK
+d) amaxb - NOK
+e) abmaxb - NOK
+
+
+aaaabmaxb
+S = ABC
+S = aaaBC
+S = aaabC
+S = aaabmax
